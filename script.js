@@ -1,3 +1,5 @@
+let url = 'https://api.nomics.com/v1/currencies/ticker?key=dcf9ac095aaf4d4a39e3778278ea2800a68a05cc&ids=BTC,ETH,XRP,LTC,DASH,SOL&interval=1d,30d&convert=USD&per-page=100&page=1'
+
 let $coin = document.querySelector('.coin')
 let $coin_change = document.querySelector('.coin_change')
 let $coin_price = document.querySelector('.coin_price')
@@ -12,7 +14,7 @@ let $symbol_ethereum = document.querySelector('.symbol_ethereum')
 let $symbol_litecoin = document.querySelector('.symbol_litecoin')
 
 
-fetch("https://api.nomics.com/v1/currencies/ticker?key=dcf9ac095aaf4d4a39e3778278ea2800a68a05cc&ids=BTC,ETH,XRP,LTC,DASH,SOL&interval=1d,30d&convert=USD&per-page=100&page=1")
+fetch(url)
   .then(response => response.json())
   .then(data => {
     console.log(data)
