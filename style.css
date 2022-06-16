@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #17171A;
+}
+body{
+    background-color: aqua;
+}
+.cripto{
+    width: 375px;
+    height: 100vh;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.41px;
+}
+.see_all{
+    text-align: end;
+    margin-top: 7%;
+}
+.see_all a{
+    color: #F6543E;
+    text-decoration: none;
+}
+.valute{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.name_valute{
+    margin-left: 5%;
+}
+.name_valute h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+}
+.name_valute p{
+    font-weight: 400;
+    font-size: 12px;    
+    line-height: 16px;
+    color: #AEB6CE;
+}
+.left{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    
+}
+.right h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+.right p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #AEB6CE;
+    text-align: right;
+}
+hr{
+    margin-top: 5%;
+}
